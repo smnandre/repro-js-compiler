@@ -16,13 +16,34 @@ return [
         'path' => './assets/app.js',
         'entrypoint' => true,
     ],
-    '@hotwired/stimulus' => [
-        'version' => '3.2.2',
+    'bootstrap' => [
+        'version' => '5.3.3',
     ],
-    '@symfony/stimulus-bundle' => [
-        'path' => './vendor/symfony/stimulus-bundle/assets/dist/loader.js',
+    '@popperjs/core' => [
+        'version' => '2.11.8',
     ],
-    '@hotwired/turbo' => [
-        'version' => '7.3.0',
+    'bootstrap/dist/css/bootstrap.min.css' => [
+        'version' => '5.3.3',
+        'type' => 'css',
+    ],
+    'jquery' => [
+        'version' => '3.7.1',
+    ],
+    'dropzone' => [
+        'version' => '6.0.0-beta.2',
+    ],
+    'just-extend' => [
+        'version' => '6.2.0',
+    ],
+    'dropzone/dist/dropzone.css' => [
+        'version' => '6.0.0-beta.2',
+        'type' => 'css',
+    ],
+    'bootstrap-icons/font/bootstrap-icons.min.css' => [
+        'version' => '1.11.3',
+        'type' => 'css',
+    ],
+    'validator' => [
+        'version' => '13.11.0',
     ],
 ];
